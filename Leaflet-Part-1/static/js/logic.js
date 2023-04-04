@@ -1,5 +1,5 @@
 // Store our API endpoint as queryUrl.
-var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
+var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson";
 
 // Define a markerSize() function that will give each city a different radius based on its magnitude.
 function markerSize(mag) {
